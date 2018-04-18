@@ -1,0 +1,1 @@
+"insert into BagList('id','batch_no','quality','price','category')values('1','"+I.getBatch_no()+"'"+"'"+I.getQuality()+"'"+"'"+I.getPrice()+"'"+"'"+I.getCategory()+"'"))

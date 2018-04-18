@@ -1,0 +1,9 @@
+create table if not exists ShoeList(
+id int unsigned auto_increment not null,
+batch_no int not null,
+ quality varchar(255) not null,
+ price float(255) not null,
+sizes int not null,
+brand varchar(255) not null,
+ primary key(id)
+);
